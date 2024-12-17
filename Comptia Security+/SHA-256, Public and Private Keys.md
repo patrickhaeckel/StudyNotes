@@ -1,6 +1,6 @@
 ---
 title: SHA-256, Public and Private Keys
-updated: 2024-09-06 21:35:00Z
+updated: 2024-12-17 18:24:46Z
 created: 2024-09-06 00:03:00Z
 ---
 
@@ -41,9 +41,7 @@ This process ensures that passwords can be securely stored and verified without 
 2.  **Private Key Decryption**:
     
     - The client, which has the corresponding private key, uses that private key to decrypt the challenge sent by the server.
-    - If the client can successfully decrypt the challenge, it proves that the client possesses the correct private key, thus authenticating the client to the server.
-
-&nbsp;
+    - If the client can successfully decrypt the challenge, it proves that the client possesses the correct private key, thus authenticating the client to the server.  
 
 ### Relationship Between Public and Private Keys
 
