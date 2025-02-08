@@ -1,6 +1,6 @@
 ---
 title: SHA-256, Public and Private Keys
-updated: 2024-12-29 04:45:44Z
+updated: 2025-02-08 03:24:18Z
 created: 2024-09-06 00:03:00Z
 ---
 
@@ -60,6 +60,43 @@ This process ensures that passwords can be securely stored and verified without 
 - **Private Key**:
     
     - The private key is used to decrypt data that was encrypted with the corresponding public key.
+
+&nbsp;
+
+### **Encryption**
+
+#### **Level of Encryption**
+
+- **Full-Disk Encryption**: Mentioned as used by tools like BitLocker and FileVault for securing entire drives.
+- **Partition Encryption**: Implied but not explicitly detailed.
+- **File Encryption**: Examples like EFS (Encrypting File System) in Windows.
+- **Volume Encryption**: Securing all data within a volume as part of full-disk methods.
+- **Database Encryption**: Explains symmetric encryption at database, column, and record levels.
+- **Record Encryption**: Part of database encryption, where individual records can be secured.
+
+#### **Transport/Communication Encryption**
+
+- **VPNs and HTTPS**: Encrypt data in transit using SSL/TLS or IPsec for secure communication.
+
+#### **Asymmetric Encryption**
+
+- Uses two mathematically related keys (public and private). Describes its application, such as encrypting with a public key and decrypting with a private key.
+
+#### **Symmetric Encryption**
+
+- Involves a shared secret key for both encryption and decryption.
+
+#### **Key Exchange**
+
+- Explains out-of-band and in-band methods for sharing symmetric keys securely.
+
+#### **Algorithms**
+
+- Examples include DES and AES, emphasizing their differences and suitability for encryption tasks.
+
+#### **Key Length**
+
+- Highlights the significance of longer keys (e.g., 128-bit for symmetric, 3072-bit for asymmetric) for security against brute force attacks.
 
 &nbsp;
 
